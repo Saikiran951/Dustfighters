@@ -929,6 +929,10 @@ img {
 
 }
 
+.main-header.style-five {
+    background:#273174 !important;
+}
+
 .main-header .menu-right-content .cart-box a span{
   position: absolute;
   top: 1px;
@@ -3929,7 +3933,7 @@ div#mCSB_1_container{
 }
 
 .bg-color-2{
-  background: #0a267a;
+  background: #273174;
 }
 
 
@@ -12798,7 +12802,7 @@ div#mCSB_1_container{
 
 .main-header.style-five .header-upper .upper-inner{
   position: relative;
-  background: #3133d0;
+  background:#D0EDF8;
   border-radius: 5px 5px 0px 0px;
 }
 
@@ -12809,7 +12813,7 @@ div#mCSB_1_container{
 .main-header.style-five .header-upper .upper-inner:before{
   position: absolute;
   content: '';
-  background: #3133d0;
+  background: #D0EDF8;
   width: calc(100% + 80px);
   height: 100%;
   left: -40px;
@@ -12842,7 +12846,7 @@ div#mCSB_1_container{
 
 .main-header.style-five .header-upper .info-list li h6,
 .main-header.style-five .header-upper .info-list li h5{
-  color: #ffffff;
+  color: #000000;
 }
 
 .main-header.style-five .header-upper .info-list li:first-child:before{
