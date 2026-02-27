@@ -769,3 +769,16 @@
 	
 
 })(window.jQuery);
+
+
+// Optional interaction (analytics / click tracking ready)
+
+document.addEventListener("DOMContentLoaded", function () {
+    var whatsappBtn = document.getElementById("whatsappButton");
+
+    if (whatsappBtn) {
+        whatsappBtn.addEventListener("click", function () {
+            console.log("WhatsApp button clicked");
+        });
+    }
+});
